@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pg_activity"
+version = "0.1.0"
+description = "Command line tool for PostgreSQL server activity monitoring."
+authors = ["Benoit Lobréau <benoit.lobreau@dalibo.com>"]
+license = "PostgreSQL License"
+packages = [
+    { include = "pgactivity" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+psycopg2 = "^2.2.1"
+psutil = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pg_activity = 'pgactivity:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

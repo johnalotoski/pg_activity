@@ -1,0 +1,47 @@
+[[package]]
+category = "main"
+description = "A process utilities module for Python"
+name = "psutil"
+optional = false
+python-versions = "*"
+version = "0.5.1"
+
+[[package]]
+category = "main"
+description = "psycopg2 - Python-PostgreSQL Database Adapter"
+name = "psycopg2"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "2.8.5"
+
+[metadata]
+content-hash = "78ff716291376db848467af78eb52d99d9599ca414aa6dc1930d557cb3b6c88b"
+python-versions = "^3.7"
+
+[metadata.files]
+psutil = [
+    {file = "psutil-0.5.1.tar.gz", hash = "sha256:f660d244a08373f5e89633650970819a59463b37af1c9d205699fb0d0608986d"},
+    {file = "psutil-0.5.1.win-amd64-py2.7.exe", hash = "sha256:eff5ed677b6bdb5d75f1de925df774d8029582eea17abc3bbd31b9885d3c649d"},
+    {file = "psutil-0.5.1.win-amd64-py3.3.exe", hash = "sha256:8a12d8e368bfccfe2074616cae2472dfb1e136a2aaaea5b7dbafdb390166b202"},
+    {file = "psutil-0.5.1.win-amd64-py3.4.exe", hash = "sha256:9d991aae6b993ac58b540f27b2dff71137db62253f5d7acc5ede1ec845fd6b0b"},
+    {file = "psutil-0.5.1.win32-py2.5.exe", hash = "sha256:ee32be6667bb69ebefc2fb5e23d115d98e307b5246c01ef50e45cfd8ad824d07"},
+    {file = "psutil-0.5.1.win32-py2.6.exe", hash = "sha256:f434f546d73366bff6283db907105b2607976ff9be67f2b5a7b35533e5f27219"},
+    {file = "psutil-0.5.1.win32-py2.7.exe", hash = "sha256:45acf090d65f2f47f3b1444b056cafb1b1ca70a8e266ddf10422734fb0ada897"},
+    {file = "psutil-0.5.1.win32-py3.3.exe", hash = "sha256:9a20a99b6727334c8cc3a10ecc556d2f15a1e92efef97670ed022b86e09df36b"},
+    {file = "psutil-0.5.1.win32-py3.4.exe", hash = "sha256:d547e164013a4d78909cbac0c176d65aa51c06de2fb888c63b738906f5ccc105"},
+]
+psycopg2 = [
+    {file = "psycopg2-2.8.5-cp27-cp27m-win32.whl", hash = "sha256:a0984ff49e176062fcdc8a5a2a670c9bb1704a2f69548bce8f8a7bad41c661bf"},
+    {file = "psycopg2-2.8.5-cp27-cp27m-win_amd64.whl", hash = "sha256:acf56d564e443e3dea152efe972b1434058244298a94348fc518d6dd6a9fb0bb"},
+    {file = "psycopg2-2.8.5-cp34-cp34m-win32.whl", hash = "sha256:440a3ea2c955e89321a138eb7582aa1d22fe286c7d65e26a2c5411af0a88ae72"},
+    {file = "psycopg2-2.8.5-cp34-cp34m-win_amd64.whl", hash = "sha256:6b306dae53ec7f4f67a10942cf8ac85de930ea90e9903e2df4001f69b7833f7e"},
+    {file = "psycopg2-2.8.5-cp35-cp35m-win32.whl", hash = "sha256:d3b29d717d39d3580efd760a9a46a7418408acebbb784717c90d708c9ed5f055"},
+    {file = "psycopg2-2.8.5-cp35-cp35m-win_amd64.whl", hash = "sha256:6a471d4d2a6f14c97a882e8d3124869bc623f3df6177eefe02994ea41fd45b52"},
+    {file = "psycopg2-2.8.5-cp36-cp36m-win32.whl", hash = "sha256:27c633f2d5db0fc27b51f1b08f410715b59fa3802987aec91aeb8f562724e95c"},
+    {file = "psycopg2-2.8.5-cp36-cp36m-win_amd64.whl", hash = "sha256:2df2bf1b87305bd95eb3ac666ee1f00a9c83d10927b8144e8e39644218f4cf81"},
+    {file = "psycopg2-2.8.5-cp37-cp37m-win32.whl", hash = "sha256:ac5b23d0199c012ad91ed1bbb971b7666da651c6371529b1be8cbe2a7bf3c3a9"},
+    {file = "psycopg2-2.8.5-cp37-cp37m-win_amd64.whl", hash = "sha256:2c0afb40cfb4d53487ee2ebe128649028c9a78d2476d14a67781e45dc287f080"},
+    {file = "psycopg2-2.8.5-cp38-cp38-win32.whl", hash = "sha256:2327bf42c1744a434ed8ed0bbaa9168cac7ee5a22a9001f6fc85c33b8a4a14b7"},
+    {file = "psycopg2-2.8.5-cp38-cp38-win_amd64.whl", hash = "sha256:132efc7ee46a763e68a815f4d26223d9c679953cd190f1f218187cb60decf535"},
+    {file = "psycopg2-2.8.5.tar.gz", hash = "sha256:f7d46240f7a1ae1dd95aab38bd74f7428d46531f69219954266d669da60c0818"},
+]
